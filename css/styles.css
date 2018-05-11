@@ -1,0 +1,269 @@
+
+html{box-sizing: border-box;}
+*:not(img), *:before, *:after {
+  box-sizing: inherit;
+}
+
+.a {
+  display: flex;
+  flex-basis: auto;
+  padding: 5%;
+}
+
+.headerimg {
+  width: 100%;
+  Position: fixed:
+  top: 0;
+}
+
+.titlebackground{
+  background: url(../images/hypnotize.png) fixed;
+  display: flex;
+  justifycontent: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  /* Position: fixed;
+  top: 0; */
+}
+
+
+/* .navbar-scrolled{
+  width: 100%;
+  Position: fixed:
+  top: 0;
+  z-index: 150;
+} */
+nav ul{
+  padding: 0 5%;
+  margin: 0;
+  align-content: space-around;
+  list-style-type: none;
+  background: #6FAFCB;
+}
+
+nav {
+
+  display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+  display: flex;
+  align-content: space-around;
+  justify-content: flex-center;
+  display: inline-block;
+  /* padding: 5px 5px; */
+}
+
+nav a {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-center;
+  align-content: center;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 15px;
+}
+
+nav a:hover{
+  background-color: #6e412c;
+  color: white;
+  padding: 10px 15px;
+}
+
+
+
+body {
+  /* padding: 250px 0 0 0; */
+  /* margin: 0 20px 20px 20px; */
+  background:#e3dfd5;
+  font-family: 'Dosis', sans-serif;
+}
+
+main{
+/* padding: 150px 1em 1em 1em; */
+padding: 1em;
+}
+
+h1{
+  font-size: 68px;
+  color:#6FAFCB;
+  font-family: 'Dosis', sans-serif;
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+}
+
+h2{
+  font-size: 36px;
+  color: #6FAFCB;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: .5em;
+}
+
+.wrapperP{
+display:flex;
+flex-wrap: wrap;
+/* font-weight: bold; */
+margin-top: 1px;
+}
+
+.description{
+  color: #6e412c;
+  font-size: 24px;
+  width: 400px;
+  line-height: 1.25;
+  margin: 0 0 .5em 0;
+}
+.longer{
+  color: #6e412c;
+  font-size: 24px;
+  width: 800px;
+  line-height: 1.25;
+  margin: 0 0 .5em 0;
+}
+
+.column{
+font-size: 24px;
+margin: 0 5% 5% 5%;
+}
+
+.fa-train{font-size:
+  2em; color: black;
+}
+
+video {
+height: 50%;
+width: 50%;
+transform: rotate(90deg);
+}
+
+.circle {
+  height: 50px;
+  weight: 50px;
+  border-radius: 50%;
+}
+
+#hamburger, #close{
+  display:none;
+}
+@media(max-width:500px){
+  #hamburger, #close{
+    display:block;
+    align-content: flex-start;
+    justify-content: flex;
+    font-size: 36px;
+
+  }
+  .navbar{position: fixed;
+  top: -100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  nav a {font-size:2em;
+  }
+  .navbar.open-nav {
+    top:10vh;
+    height: 100vh;
+    width: 100px;
+    left: 0;
+    fint-size 18px;
+    right: 5%;
+    /* background: #fffffff0; */
+    z-index:100;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify content: flex-start;
+    align-self: flex-start;
+    padding-left:0 50px;
+  }
+  /* h1.open-nav{
+    font-size: 12px;
+  } */
+
+.titlebackground.open-nav{
+  height:30vh;
+}
+
+}
+
+
+
+
+
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+label{
+  display:inline-block;
+  width: 40%;
+  margin:5px;
+  text-align: right;
+}
+
+
+input[type="submit"]{
+  width: 100px;
+  background:#DDDDDD;
+}
+
+input, textarea{
+width: 40%;
+hight: 10px;
+margin: 5px;
+
+}
+
+input:focus, text-area:focus{
+
+outline-color: #69BFA3;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navbar igation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  padding-top: 60px;
+} */
+/*
+img{
+  height="400" width="600"
+  border: 5px solid #6FAFCB; */
+}
+
+/* p{
+  font-size 1rem;
+} */
+
+/* .bar {
+  margin-top:
+  height: 10px;
+  background-color: #6FAFCB;
+  width: 600px;
+} */
+
+/* div.wrapper{
+  width: 600px;
+  background: lightblue;
+  padding: 20px 0;
+  margin: 10px 10px 10px 10px;} */
+/* header{ width: 20px;} */
+/* background-color:#D19A66; */
+
+/* navbarbarbarbar a{
+  text-decoration: none;
+  color: black;
+  inline-block;
+} */
